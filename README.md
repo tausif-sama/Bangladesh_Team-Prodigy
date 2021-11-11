@@ -19,7 +19,7 @@ Nvidia Jetson Nano SDK was used as the core os of the car
 
 ## Tweaks
 
-+ Putting the Jetson Nano on MAXN mode gives faaaster inference, and better performance on track
++ Putting the Jetson Nano on MAXN mode gives faster inference, and better performance on track
 + For the WRO track it's wise to not have any negative throttle value in the Dataset
 + Removing bad frames improve the models accuracy.
 + The wider the field of view the better the performance. Preferably 160-180 degrees. 
