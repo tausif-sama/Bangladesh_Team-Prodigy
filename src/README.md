@@ -1,7 +1,7 @@
 Steps
 ====
 
-Akashe keno eto tara.
+These 3 steps were followed to collect data, train and test car on the track.
 
 ## 1. Data Collection
 
