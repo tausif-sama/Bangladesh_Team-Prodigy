@@ -5,6 +5,8 @@ Akashe keno eto tara.
 
 ## 1. Data Collection
 
+[Notebook](autopilot_data_collection.ipynb)
+<br>
 The goal is to gather data reflecting correct driving, i.e images with correctly annotated steering and throttle values. While driving with the gamepad, we recorded camera frames and corresponding steering and throttle values. 
 
 ## 2. Training
