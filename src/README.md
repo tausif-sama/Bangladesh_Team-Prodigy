@@ -1,24 +1,28 @@
-Engineering materials
+Steps
 ====
-
-This repository contains engineering materials of a self-driven vehicle's model participating in the WRO Future Engineers competition in the season 2021 from Team Bangladesh.
-
-Badur Gaddi v0.1.50 for WRO Future Engineers.
-This repository contains full documentation of our robot. 
 
 Akashe keno eto tara.
 
-## Content
+## 1. Data Collection
 
-* `team_photos` contains 2 photos of the team
-* `youtube_link` contains the video of the robot 
-* `robot_photos` contains 6 photos of the vehicle (from every side, from top and bottom)
-* `schematics` contains schematic diagrams of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how they connect to each other.
-* `src` contains code of control software for all components which were programmed
-* `chassis` is for the files and documentation of the chassis assembly
-* `other` is for other misc files 
+The goal is to gather data reflecting correct driving, i.e images with correctly annotated steering and throttle values. While driving with the gamepad, we recorded camera frames and corresponding steering and throttle values. 
 
-## Introduction
+## 2. Training
 
-AKASHE KENO ETO TARA
+Training process consists of iterating over previously gathered datasets and feeding them into the CNN. CNN network is built of the resnet18 backbone and a stack of dropout and fully connected layers.
+
+    self.network = torchvision.models.resnet18(pretrained=pretrained)
+    self.network.fc = torch.nn.Sequential(
+        torch.nn.Dropout(p=DROPOUT_PROB),
+        torch.nn.Linear(in_features=self.network.fc.in_features, out_features=128),
+        torch.nn.Dropout(p=DROPOUT_PROB),
+        torch.nn.Linear(in_features=128, out_features=64),
+        torch.nn.Dropout(p=DROPOUT_PROB),
+        torch.nn.Linear(in_features=64, out_features=OUTPUT_SIZE)
+    )
+
+## 3. Testing
+
+Finally, with the trained model we tested on the track. With the relatively lightweight CNN, Jetson operates at ~30 FPS, successfully drives the track in both directions.
+
 
