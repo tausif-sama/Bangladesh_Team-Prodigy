@@ -17,4 +17,11 @@ Nvidia Jetson Nano SDK was used as the core os of the car
 2. [Training](src/autopilot_training.ipynb): The captured data is divided in 70/30 proportion in the training and validation set. A custom testing set is made to get better results. The whole data is fed on to the CNN then. And the model is prepared
 3. [Testing](src/autopilot_testing.py): We test the car in the real worls after training the model.
 
+## Tweaks
+
++ Putting the Jetson Nano on MAXN mode gives faaaster inference, and better performance on track
++ For the WRO track it's wise to not have any negative throttle value in the Dataset
++ Removing bad frames improve the models accuracy.
++ The wider the field of view the better the performance. Preferably 160-180 degrees. 
++ Using python script to run the notebook lowers the latency.
 
