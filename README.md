@@ -6,7 +6,6 @@ This repository contains engineering materials of a self-driven vehicle's model 
 Badur Gaddi v0.1.50 for WRO Future Engineers.
 This repository contains full documentation of our robot. 
 
-Akashe keno eto tara.
 
 ## Content
 
