@@ -11,6 +11,8 @@ The goal is to gather data reflecting correct driving, i.e images with correctly
 
 ## 2. Training
 
+[Notebook](autopilot_training.ipynb)
+<br>
 Training process consists of iterating over previously gathered datasets and feeding them into the CNN. CNN network is built of the resnet18 backbone and a stack of dropout and fully connected layers.
 
     self.network = torchvision.models.resnet18(pretrained=pretrained)
@@ -25,6 +27,8 @@ Training process consists of iterating over previously gathered datasets and fee
 
 ## 3. Testing
 
+[Python script](autopilot_testing.py)
+<br>
 Finally, with the trained model we tested on the track. With the relatively lightweight CNN, Jetson operates at ~30 FPS, successfully drives the track in both directions.
 
 
