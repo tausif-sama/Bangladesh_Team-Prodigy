@@ -24,4 +24,5 @@ Nvidia Jetson Nano SDK was used as the core os of the car
 + Removing bad frames improve the models accuracy.
 + The wider the field of view the better the performance. Preferably 160-180 degrees. 
 + Using python script to run the notebook lowers the latency.
++ Bigger datasets can be too hardware demanding for the car. Saving frequently helps the car to perform better. 
 
