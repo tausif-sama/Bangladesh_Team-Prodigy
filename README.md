@@ -2,6 +2,16 @@
 
 Badur Gaddi is a self driving car, modeled to work on the WRO FE track. The self driving AI model is built with end to end Convolutional Neural Network System system build on pytorch.
 
+
+## Content
+
+* `chassis` contains details about our chassis and links to the 3D Printed models that we've made.
+* `robot_photos` contains the photos of our robot from all 6 sides.
+* `schematics` contains detailed schematics, guidelines and instructions to replicate the same electrical system.
+* `src` contains code of control software for all components which were programmed to participate in the competition.
+* `team_photos` contains our photos.
+* `youtube_link` contains the link to the youtube videos that show our robot in action.
+
 ## Hardware
 
 + Jetson Nano 4gb(A02)

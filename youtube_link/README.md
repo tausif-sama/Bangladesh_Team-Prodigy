@@ -7,5 +7,5 @@ The following links are to videos that shows our robot in operation.
 
 ## Video
 
-Qualifying Round (No Obstacles): https://youtu.be/S9wpW4F8XDg
+Qualifying Round (No Obstacles): https://youtu.be/Ffx7hibh6Og
 
