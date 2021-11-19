@@ -31,26 +31,20 @@ Badur Gaddi is a self driving car, modeled to work on the WRO FE track. The self
 
 ## Steps to replicate the exact same electrical design
 
-100. First list item
-     - First nested list item
-       - Second nested list item
-100. First list item
-     - First nested list item
-       - Second nested list item
-100. First list item
-     - First nested list item
-       - Second nested list item
-100. First list item
-     - First nested list item
-       - Second nested list item
-100. First list item
-     - First nested list item
-       - Second nested list item
-100. First list item
-     - First nested list item
-       - Second nested list item
-100. First list item
-     - First nested list item
-       - Second nested list item
++  Replicating the Power system
+    - Connect the main power from the XT60 connector to the both buck converters. XL4015 and XL4016. Set the output voltages to 9v (Whatever voltage your motor needs) and 5V respectively. 
+    - Connect the Output of the XL4015to the 12v and GND Pins of the L298N.
+    - Connect the output of the XL4016 to a barrel connector and connect it to the input of the Jetson Nano. Double check polarity and voltage as Jetson can tolerate 4.75V to 5.25V
+    - We're going to use the built in voltage regulator of the L298N to power our servo. Connect the GND and 5V wires to the power input of the PCA9685.
+    - Connect motor wires to Out 1. And connect the Arduino nano to the USB port of the Jetson Nano using a mini usb cable.
++  Connecting all the logic wires
+    - Connect PiCam V2 through the CSI Camera port.
+    - Follow the schematics and connect the SCL, SDA, VCC and GND from the PCA9685 to the 5, 3, 1, 6 on the Jetson respectively. Connect ENA from L298N to Pin 32 on the Jetson.
+    - Connect the Sonar 1 Echo, Trig and Sonar 2 Echo, Trig pins to the 2, 3 and 5, 6 pins on the Arduino Nano and power them through the 5V and GND of the Nano.
+    - The IN1 pin on the L298N to GND to provide a low signal and IN2 to 5V to provide a HIGH signal so that the motor rotates forward.
+    - Connect the servo to the PCA9685 to any of the channels as it can later be changed in the code.
+    
+      
+
 
 
