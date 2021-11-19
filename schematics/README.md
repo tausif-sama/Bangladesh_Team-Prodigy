@@ -29,4 +29,28 @@ Badur Gaddi is a self driving car, modeled to work on the WRO FE track. The self
 - 2 Buck converters were used because providing sustained voltage to the motor driver is an absolute necessity for achieving consistent performance. XL4015 Provides a constant 8.5v to the Motor driver. While the XL4016 provides clean 20W of power (5V 4A) to the Jetson.
 - A 3S 12.6V 1100mAh battery is powering this entire system. We're getting a runtime of average 40min.
 
+## Steps to replicate the exact same electrical design
+
+100. First list item
+     - First nested list item
+       - Second nested list item
+100. First list item
+     - First nested list item
+       - Second nested list item
+100. First list item
+     - First nested list item
+       - Second nested list item
+100. First list item
+     - First nested list item
+       - Second nested list item
+100. First list item
+     - First nested list item
+       - Second nested list item
+100. First list item
+     - First nested list item
+       - Second nested list item
+100. First list item
+     - First nested list item
+       - Second nested list item
+
 
