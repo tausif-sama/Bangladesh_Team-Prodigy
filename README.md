@@ -71,7 +71,8 @@ Here're some photos of our robot.
 
 ![camera fix](https://github.com/tausif-sama/Bangladesh_Team-Prodigy/blob/main/others/9.PNG)
 
-10. Now it’s time to identify the objects. We have already included the threshold for Orange Line, Blue Line, Green Trafic Bar, Red Trafic Bar, and Black wall. But, it might differ drastically based on the lighting and color of the objects in different situations. So, we suggest checking and calibrating it with this code. 
+10. Now it’s time to identify the objects. We have already included the threshold for Orange Line, Blue Line, Green Trafic Bar, Red Trafic Bar, and Black wall. But, it might differ drastically based on the lighting and color of the objects in different situations. So, we suggest checking and calibrating it with [hsv.py]: https://github.com/tausif-sama/Bangladesh_Team-Prodigy/blob/main/src/hsv.py
+ 
 11. Next up is servo. It’s often hard to know the servo angles correctly before testing it. The  servo.py script is for you to test the servo angles. Just change the angle variable in the code, and you will find the values you need. Ensure that you are the bus channel is correct on your code(inferred from PCA9685). Which in our case was 0.
 ![servo angles](https://github.com/tausif-sama/Bangladesh_Team-Prodigy/blob/main/others/11.PNG)
 12. The speed of the car is pivotal to this whole algorithm, throttle.py script is there to help you get the sweet spot for your speed. Put your car’s rear wheels higher than the ground at the beginning of the test to avoid collision. Once you are comfortable tinkering with the motor gpio.pwm try it on the ground.
