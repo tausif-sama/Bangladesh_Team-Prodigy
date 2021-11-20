@@ -1,6 +1,6 @@
 ## Introduction
 
-Badur Gaddi is a self driving car, modeled to work on the WRO FE track. The self driving AI model is built with end to end Convolutional Neural Network System system build on pytorch.
+We present you, Badur Gaddi v0.1.5. Badur Gaddi is a self driving car, modeled to work on the WRO FE track. The self driving car model is built using OpenCV and analogue sensors and given enough functionality so that it can complete a few laps at the WRO Future Engineers Track.
 
 
 ## Content
