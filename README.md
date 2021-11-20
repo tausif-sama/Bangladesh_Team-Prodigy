@@ -78,7 +78,6 @@ Here're some photos of our robot.
 ![throttle](https://github.com/tausif-sama/Bangladesh_Team-Prodigy/blob/main/others/12.PNG)
 13. It’s finally time to go headless. But SSH isn’t the best option here, as there is a lot of graphical interface required for the tuning. So we will use a VNC viewer. Download VNC viewer in your pc, and prepare the jetson as a VNC server. Once the Jetson is connected to your local network, find it’s IP from the routers admin panel. We suggest binding the ip with the device in the router for further convenience. Now just type in the ip in the VNC viewer and you are connected to the car.
 ![meow](https://github.com/tausif-sama/Bangladesh_Team-Prodigy/blob/main/others/13aa.PNG)
-![meow](https://github.com/tausif-sama/Bangladesh_Team-Prodigy/blob/main/others/13b.PNG)
 ![meow](https://github.com/tausif-sama/Bangladesh_Team-Prodigy/blob/main/others/13c.PNG)
 ![meow](https://github.com/tausif-sama/Bangladesh_Team-Prodigy/blob/main/others/13d.PNG)
 ![meowe](https://github.com/tausif-sama/Bangladesh_Team-Prodigy/blob/main/others/13e.PNG)
