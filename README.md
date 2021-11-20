@@ -12,6 +12,11 @@ Badur Gaddi is a self driving car, modeled to work on the WRO FE track. The self
 * `team_photos` contains our photos.
 * `youtube_link` contains the link to the youtube videos that show our robot in action.
 
+Here're some photos of our robot.
+![side](https://github.com/tausif-sama/Bangladesh_Team-Prodigy/blob/main/others/gaming1.jpg)
+![side2](https://github.com/tausif-sama/Bangladesh_Team-Prodigy/blob/main/others/gaming2.jpg)
+![baack](https://github.com/tausif-sama/Bangladesh_Team-Prodigy/blob/main/others/pasa.jpg)
+
 
 ## Hardware Design decisions
 
