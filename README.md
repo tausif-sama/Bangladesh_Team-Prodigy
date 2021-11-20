@@ -6,6 +6,7 @@ We present you, Badur Gaddi v0.1.5. Badur Gaddi is a self driving car, modeled t
 ## Content
 
 * `chassis` contains details about our chassis and links to the 3D Printed models that we've made.
+* `others` contains some miscellaneous photos.
 * `robot_photos` contains the photos of our robot from all 6 sides.
 * `schematics` contains detailed schematics, guidelines and instructions to replicate the same electrical system.
 * `src` contains code of control software for all components which were programmed to participate in the competition.
