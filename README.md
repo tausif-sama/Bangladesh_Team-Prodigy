@@ -42,7 +42,7 @@ Here're some photos of our robot.
 +  Connecting all the logic wires
     - Connect PiCam V2 through the CSI Camera port.
     - Follow the Schematics for detailed wiring guidelines.
-    - Connect the SCL, SDA, VCC and GND from the PCA9685 to the 5, 3, 1, 6 on the Jetson respectively. Connect ENA from L298N to Pin 32 on the Jetson.
+    - Connect the SCL, SDA, VCC and GND from the PCA9685 to the 5, 3, 1, 6 on the Jetson respectively. Connect ENA from L298N to Pin 32 on the Jetson. Put a common ground connection between the jetson and L298N.
     - Connect the Sonar 1 Echo, Trig and Sonar 2 Echo, Trig pins to the 2, 3 and 5, 6 pins on the Arduino Nano and power them through the 5V and GND of the Nano.
     - The IN1 pin on the L298N is connected to GND to provide a low signal and IN2 is connected to 5V to provide a HIGH signal so that the motor rotates forward. We're only making use of the Enable pin to control speed varying the duty cycle. (Follow datasheet for more info on this)
     - Connect the servo to the PCA9685 to any of the channels as it can later be changed in the code.
