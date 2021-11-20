@@ -63,7 +63,9 @@ Badur Gaddi is a self driving car, modeled to work on the WRO FE track. The self
 7. After getting everything up to date in the os, now it’s time to install all the dependencies from the code(i.e, OpenCV)
 8. Once all the installation is done, now it’s time to check and calibrate the thresholds
 9. Use the cam.py file to test if the camera is working properly. If the camera is flipped 180 degrees. Then change the flip_method=2 to flip__method=0
+
 ![camera fix](https://github.com/tausif-sama/Bangladesh_Team-Prodigy/blob/main/others/9.PNG)
+
 10. Now it’s time to identify the objects. We have already included the threshold for Orange Line, Blue Line, Green Trafic Bar, Red Trafic Bar, and Black wall. But, it might differ drastically based on the lighting and color of the objects in different situations. So, we suggest checking and calibrating it with this code. 
 11. Next up is servo. It’s often hard to know the servo angles correctly before testing it. The  servo.py script is for you to test the servo angles. Just change the angle variable in the code, and you will find the values you need. Ensure that you are the bus channel is correct on your code(inferred from PCA9685). Which in our case was 0.
 ![servo angles](https://github.com/tausif-sama/Bangladesh_Team-Prodigy/blob/main/others/11.PNG)
