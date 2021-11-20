@@ -65,7 +65,7 @@ Here're some photos of our robot.
 4. The setup process is pretty self explanatory. Complete it as guided
 5. Open terminal and type in sudo apt update
 6. After that stage is complete, type in sudo apt upgrade
-7. After getting everything up to date in the os, now it’s time to install all the dependencies from the code(i.e, OpenCV)
+7. After getting everything up to date in the os, now it’s time to install all the dependencies from the code(i.e, OpenCV. Arduino IDE)
 8. Once all the installation is done, now it’s time to check and calibrate the thresholds
 9. Use the cam.py file to test if the camera is working properly. If the camera is flipped 180 degrees. Then change the flip_method=2 to flip__method=0
 
@@ -75,14 +75,22 @@ Here're some photos of our robot.
  
 [hsv.py]: https://github.com/tausif-sama/Bangladesh_Team-Prodigy/blob/main/src/hsv.py
 
-11. Next up is servo. It’s often hard to know the servo angles correctly before testing it. The  servo.py script is for you to test the servo angles. Just change the angle variable in the code, and you will find the values you need. Ensure that you are the bus channel is correct on your code(inferred from PCA9685). Which in our case was 0.
+11. Next up is servo. It’s often hard to know the servo angles correctly before testing it. The  [servo.py] script is for you to test the servo angles. Just change the angle variable in the code, and you will find the values you need. Ensure that you are the bus channel is correct on your code(inferred from PCA9685). Which in our case was 0.
 ![servo angles](https://github.com/tausif-sama/Bangladesh_Team-Prodigy/blob/main/others/11.PNG)
-12. The speed of the car is pivotal to this whole algorithm, throttle.py script is there to help you get the sweet spot for your speed. Put your car’s rear wheels higher than the ground at the beginning of the test to avoid collision. Once you are comfortable tinkering with the motor gpio.pwm try it on the ground.
+
+[servo.py]: https://github.com/tausif-sama/Bangladesh_Team-Prodigy/blob/main/src/servo.py
+
+12. The speed of the car is pivotal to this whole algorithm, [throttle.py] script is there to help you get the sweet spot for your speed. Put your car’s rear wheels higher than the ground at the beginning of the test to avoid collision. Once you are comfortable tinkering with the motor gpio.pwm try it on the ground.
 ![throttle](https://github.com/tausif-sama/Bangladesh_Team-Prodigy/blob/main/others/12.PNG)
+
+[throttle.py]: https://github.com/tausif-sama/Bangladesh_Team-Prodigy/blob/main/src/throttle.py
+
 13. It’s finally time to go headless. But SSH isn’t the best option here, as there is a lot of graphical interface required for the tuning. So we will use a VNC viewer. Download VNC viewer in your pc, and prepare the jetson as a VNC server. Once the Jetson is connected to your local network, find it’s IP from the routers admin panel. We suggest binding the ip with the device in the router for further convenience. Now just type in the ip in the VNC viewer and you are connected to the car.
 ![meow](https://github.com/tausif-sama/Bangladesh_Team-Prodigy/blob/main/others/13aa.PNG)
 ![meow](https://github.com/tausif-sama/Bangladesh_Team-Prodigy/blob/main/others/13c.PNG)
 ![meow](https://github.com/tausif-sama/Bangladesh_Team-Prodigy/blob/main/others/13d.PNG)
 ![meowe](https://github.com/tausif-sama/Bangladesh_Team-Prodigy/blob/main/others/13e.PNG)
-14. If you made this far properly. You are now ready to run the code flawlessly. Just put the car on track and run the code in the terminal, and see the magic. 
+14. If you made this far properly. You are now ready to run [main.py] flawlessly. Just put the car on track and run the code in the terminal, and see the magic. 
+
+[main.py]: https://github.com/tausif-sama/Bangladesh_Team-Prodigy/blob/main/src/main.py
 
