@@ -1,7 +1,7 @@
 Electrical Systems Design
 ====
 
-Badur Gaddi is a self driving car, modeled to work on the WRO FE track. The self driving AI model is built with end to end Convolutional Neural Network System system build on pytorch. The electrical parts, componenets and schematic diagrams are as follows.
+Badur Gaddi is a self driving car, modeled to work on the WRO FE track. The electrical parts, components and schematic diagrams are as follows.
 
 ## Parts List
 
