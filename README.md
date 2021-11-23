@@ -1,4 +1,4 @@
-#### Engineering Documentation
+# Engineering Documentation
 
 ## Introduction
 
